@@ -24,6 +24,10 @@ button {
     cursor: pointer;
 }
 
+img {
+    display: block;
+}
+
 /* ====== загальні стилі ====== */
 .section-title {
     font-weight: 700;
@@ -48,6 +52,7 @@ button {
 
 /* ====== HEADER STYLES ====== */
 
+
 .page-header {
     border-bottom: 1px solid #e7e9fc;
 }
@@ -64,14 +69,15 @@ button {
 }
 
 .header-page-nav {
+    display: flex;
     align-items: center;
     justify-content: flex-start;
     flex-direction: row;
     gap: 40px;
     margin-right: 332px;
-    display: flex;
-
 }
+    
+    
    
 .header-logo {
     font-family: "Raleway", sans-serif;
@@ -96,10 +102,15 @@ button {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        display: flex;
+        gap: 40px;
+        padding: 24px 0 24px;
 
 .menu-item {
-display: block;
+    padding: 24px 0;
+    display: block;
 }
+
     
         
 }
@@ -118,6 +129,8 @@ display: block;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
+        display: flex;
+        padding: 24px 0 24px;
 
 }
 .adress-link:hover,
@@ -128,11 +141,14 @@ display: block;
 /* ====== HERO ====== */
 
 
-
 .section-hero {
-    padding: 188px;
+    padding: 188px 0 188px;
     background-color: #2e2f42;
     margin-right: 76px;
+}
+
+.container-header {
+    display: flex;
 }
 
 .hero-title {
