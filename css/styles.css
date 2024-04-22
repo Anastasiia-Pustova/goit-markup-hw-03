@@ -48,8 +48,13 @@ button {
 
 /* ====== HEADER STYLES ====== */
 
+.page-header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
 .container-header {
     display: flex;
+    padding: 24px;
 }
 
 .container {
@@ -59,8 +64,13 @@ button {
 }
 
 .header-page-nav {
-    display: flex;
     align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 40px;
+    margin-right: 332px;
+    display: flex;
+
 }
    
 .header-logo {
@@ -72,12 +82,13 @@ button {
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
+    margin-right: 76px;
+    padding: 24px;
 }
 
 .header-logo .span-logo {
     color: #2e2f42;
 } 
-    
 
 .menu-link {
         font-weight: 500;
@@ -85,6 +96,12 @@ button {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #2e2f42;
+
+.menu-item {
+display: block;
+}
+    
+        
 }
 .menu-link:hover,
 .menu-link:focus {
@@ -110,8 +127,11 @@ button {
 
 /* ====== HERO ====== */
 
+
+
 .section-hero {
     background-color: #2e2f42;
+    margin-right: 76px;
 }
 
 .hero-title {
@@ -123,6 +143,11 @@ button {
 }
 
 .main-button {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 10px;
     background-color: #4d5ae5;
     font-weight: 500;
     font-size: 16px;
@@ -130,6 +155,7 @@ button {
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
+
 }
 
 .main-button:hover,
