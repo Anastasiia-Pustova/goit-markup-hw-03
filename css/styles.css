@@ -130,24 +130,33 @@ display: block;
 
 
 .section-hero {
+    padding: 188px;
     background-color: #2e2f42;
     margin-right: 76px;
 }
 
 .hero-title {
+        max-width: 100%;
+        /* изменение максимальной ширины для выравнивания по центру */
+            margin: 0 auto;
+        /* автоматическое выравнивание по центру */
+        max-width: 496px;
         font-size: 56px;
         line-height: 1.07;
         letter-spacing: 0.02em;
         text-align: center;
         color: #ffffff;
+        margin-bottom: 48px;
 }
 
 .main-button {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: row;
-    gap: 10px;
+
+    width: 169px;
+    height: 56px;
+    display: block;
+    margin-left: auto; /* автоматическое выравнивание кнопки по центру */
+    margin-right: auto;/* автоматическое выравнивание кнопки по центру */
+    border: none;
     background-color: #4d5ae5;
     font-weight: 500;
     font-size: 16px;
@@ -171,7 +180,9 @@ display: block;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
-}
+        padding: 120px 120px;
+        }
+
 .benefits-paragraph {
     font-size: 16px;
     line-height: 1.5;
@@ -217,7 +228,8 @@ background-color: #ffffff;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
-        color: #2e2f42;     
+        color: #2e2f42;    
+        padding: 120px 120px;
 }
 .portfolio-paragraph {
     font-size: 16px;
